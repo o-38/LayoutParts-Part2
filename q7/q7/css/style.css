@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+.box{
+  width: 500px;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+.box::before{
+  position: absolute;
+  content: "";
+  left: 30px;
+  bottom: -25px;
+  border-top: 20px solid #8f5a0a;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+.box::after{
+  position: absolute;
+  content: "";
+  left: 30px;
+  bottom: -18px;
+  border-top: 20px solid #fad296;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
