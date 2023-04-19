@@ -11,21 +11,18 @@
   position: relative;
   margin: 0 auto;
 }
-.box::before{
+.box::before,.box::after{
   position: absolute;
   content: "";
   left: 30px;
-  bottom: -25px;
-  border-top: 20px solid #8f5a0a;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
 }
+.box::before{
+  bottom: -25px;
+  border-top: 20px solid #8f5a0a;
+}
 .box::after{
-  position: absolute;
-  content: "";
-  left: 30px;
   bottom: -18px;
   border-top: 20px solid #fad296;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
 }
