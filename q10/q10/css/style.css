@@ -58,7 +58,6 @@
   }
   .Button7:active,.Button8:active,.Button9:active{
     transform: translateY(5px);
-    border-bottom: none;
     box-shadow: 0 0 0 0;
   }
   .Button10{
